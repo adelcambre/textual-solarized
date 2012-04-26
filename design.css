@@ -156,6 +156,12 @@ body div[type=privmsg] p[type=myself] .message {
 
 body div[type=privmsg] .sender {
   font-weight: 700;
+  width: 130px;
+  text-align: right;
+  display: inline-block;
+  text-overflow: hidden;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* ACTION */
